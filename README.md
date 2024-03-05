@@ -1,4 +1,6 @@
-# Kütüphaneler
+# Youtube Clone
+
+# Tools
 
 - react-router-dom
 - react-icons
@@ -8,7 +10,8 @@
 - moment
 - tailwind
 
-# Kaynak
+# Source
 
-API: https://rapidapi.com/ytjar/api/yt-api
-# youtube-clone
+API: https://rapidapi.com
+
+![](youtube-clone.gif)
