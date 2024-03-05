@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(15, 15, 15);
+  overflow-x: hidden;
+}
+
+.videos {
+  width: 100%;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+.videos::-webkit-scrollbar {
+  background: black;
+  width: 9px;
+}
+
+.videos::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    gap: 50px;
+    padding: 20px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 169px auto;
+  gap: 10px;
+}
